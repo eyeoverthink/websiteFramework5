@@ -1,0 +1,28 @@
+/* Navbar.css */
+.navbar {
+    background-color: #333;
+    text-align: center; /* Center the content inside the navbar */
+    padding: 10px 0;
+    width: 100%;
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline-flex; /* Use inline-flex to make the list items align horizontally */
+}
+
+.navbar-item {
+    margin: 0 15px; /* Add some spacing between the navbar items */
+}
+
+.navbar-item a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 16px;
+}
+
+.navbar-item a:hover {
+    background-color: #575757;
+}

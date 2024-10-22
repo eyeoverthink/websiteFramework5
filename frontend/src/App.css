@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* Center contents of the body */
+}
+
+.header {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.header-image {
+    display: block;
+    margin: 10px auto; /* Center the image */
+    max-width: 100%;
+    height: auto;
+}
+
+/* Additional styles for main content and footer if needed */
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 10px;
+}
